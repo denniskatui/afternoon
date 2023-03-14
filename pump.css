@@ -1,0 +1,38 @@
+.sup{
+    color: red;
+}
+
+
+input[type=text],input[type=checkbox]{
+     border: 1px solid black;
+border-radius: 33px;
+     box-shadow: 4px 3px 5px 3px black;
+}
+
+
+
+form{
+    margin: 55px;
+    background-image: url("images/silver.jpeg");
+    background-repeat: revert;
+    background-size: cover;
+
+
+}
+
+body{
+         border: 2px solid limegreen;
+       background-color: burlywood;
+}
+
+input[type=submit]:hover{
+    background-color: red;
+}
+
+label{
+    color: lime;
+}
+
+.ddg{
+    color: white;
+}

@@ -1,0 +1,7 @@
+img{
+    width: 200px;
+    height: 108px;
+    opacity: 0.5 ;
+    filter: blur(3px);
+    border-radius: 500%;
+}

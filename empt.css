@@ -1,0 +1,35 @@
+table{
+height: 200px;
+    width: 1100px;
+border-collapse: collapse;
+border: 1px solid black;
+
+}
+
+
+th,td{
+    border-bottom: 1px solid black;;
+}
+
+
+
+tr:nth-child(even){
+    background-color: dodgerblue;
+}
+
+th{
+    background-color: green;
+}
+
+
+
+
+table,th,td{
+    border: 2px solid black;
+}
+
+
+.h11{
+ padding-left: 370px;
+    font-size: 50px;
+}

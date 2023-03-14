@@ -1,0 +1,24 @@
+form{
+    background-color:aqua;
+    padding: 92px;
+    margin-right: 305px;
+    margin-left: 355px;
+    margin-bottom: 922px;
+}
+
+input[type=submit]{
+    background-color: lawngreen;
+    color: white;
+}
+
+
+
+label{
+    float: left;
+    width: 106px;
+}
+
+h1{
+  text-align: center;
+
+}

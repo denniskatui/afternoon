@@ -1,0 +1,23 @@
+p {
+    background-color: burlywood;
+    color: limegreen;
+    font-size: xxx-large;
+    font-style: oblique;
+    font-family: Rekha;
+    font-weight: bold;
+    text-indent: 10cm;
+    word-spacing: 4cm;
+    text-decoration: underline;
+    line-height: 1cm;
+    border: 6px solid midnightblue;
+    outline: 7px darkorange solid;
+
+}
+
+
+
+ul{
+    list-style-type: -moz-ethiopic-numeric;
+    list-style-position: outside;
+}
+

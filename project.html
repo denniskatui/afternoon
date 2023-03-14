@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <script>
+      function validate(){
+     var ProjectName=document.getElementById("pname");
+    var AssignedTo=document.getElementById("aname");
+     var StartDate=document.getElementById("sd");
+      var EndDate=document.getElementById("dj");
+      var Description=document.getElementById("aname");
+
+
+
+         if(ProjectName.value==""||AssignedTo.value==""||StartDate.value==""||EndDate.value==""||Description.value=="")
+  {
+
+
+        alert("no Blank values allowed");
+       return false;
+  }
+           else {
+        return true;
+  }
+
+
+}
+
+  </script>
+  <link rel="stylesheet" href="pr.css">
+</head>
+<body>
+<h1><u>Project Management</u></h1>
+<form onsubmit="return validate()" action="pump.css">
+  <label for="pname">Project Name</label>
+  <input type="text" placeholder="project name" id="pname"><br><br>
+  <label for="aname">Assigned to</label>
+    <select  id="aname">
+        <option value="">Ex Merry Petsion</option>
+    </select><br><br>
+
+  <label for="sd">Start Date</label>
+   <input type="date" id="sd"><br><br>
+  <label for="ed">End Date</label>
+   <input type="date" id="ed"><br><br>
+  <p>Priority <input type="radio" value="high" >High
+  <input type="radio" value="average" >Average
+  <input type="radio" value="low">Low</p>
+  <label for="dname">Description</label>
+  <textarea id="dname" cols="22" rows="1"></textarea><br><br>
+  <input onclick="validate()" type="submit" value="Submit">
+</form>
+</body>
+</html>

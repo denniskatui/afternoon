@@ -1,0 +1,27 @@
+form{
+    background-color: firebrick;
+    margin: 10px;
+    padding: 50px;
+}
+
+
+p{
+    color: white;
+    font-weight: bold;
+    font-family: "Nimbus Roman";
+}
+
+label{
+    color: white;
+}
+
+
+
+input[type=submit]{
+    background-color: darkorange;
+    width: 60px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+}
+

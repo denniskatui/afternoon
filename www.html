@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="www.css">
+  <script type="text/javascript">
+
+         function validate(){
+
+
+           var name=document.getElementById("nname");
+           var subject=document.getElementById("sname");
+           var phone=document.getElementById("pname");
+           var email=document.getElementById("ename");
+           var message=document.getElementById("mname")
+             if(name.value==""||subject.value==""||phone.value==""||email.value==""||message.value==""){
+                alert("no blank values allowed");
+                return false;
+      }
+             else{return true;
+
+      }
+
+    }
+
+  </script>
+</head>
+<body>
+
+<form  onsubmit="return validate()" action="employees.html">
+<p>CONTACT US</p>
+  <input type="text" placeholder="Name" id="nname"><br><br>
+  <input type="text" placeholder="Subject" id="sname"><br><br>
+  <input type="text" placeholder="Phone" id="pname"><br><br>
+  <input type="text" placeholder="Email" id="ename"><br><br>
+  <textarea type="text" placeholder="Message" cols="30" rows="5" id="mname"></textarea><br><br>
+
+
+  <input onclick="  validate()" type="submit" value="SUBMIT">
+
+
+</form>
+
+</body>
+</html>
+
+
+
